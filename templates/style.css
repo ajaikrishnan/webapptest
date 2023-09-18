@@ -1,0 +1,32 @@
+/* Style for the login and registration forms */
+.card {
+    margin-top: 20px;
+}
+
+/* Center the card on the page */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Add padding to the card body */
+.card-body {
+    padding: 20px;
+}
+
+/* Add margin to the registration button */
+.card-header + .card-body .btn {
+    margin-top: 10px;
+}
+
+/* Center the card headers */
+.card-header {
+    text-align: center;
+}
+
+/* Add some space between the two forms */
+.mt-4 {
+    margin-top: 20px;
+}
